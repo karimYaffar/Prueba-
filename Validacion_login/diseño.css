@@ -1,0 +1,89 @@
+
+select :valid.
+
+input :valid{
+    border-width: 3px;
+    border-color: #45a049;
+    border-style: solid;
+    border-style: double;
+    background-color: lightgreen;
+  }
+  input :invalid{
+    border-width: 3px;
+    border-color: #e75b10;
+    border-style: solid;
+    border-style: double;
+    background-color: rgb(236, 111, 22);
+  }
+  
+
+
+
+    
+
+legend {
+
+    text-align: center;
+}
+
+/* Para ir viendo si se invalida o no  */
+
+body {
+    background-color: #5ab6f0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;  /* Espaciado arriba y abajo */
+    padding: 20px;    /* Espaciado a los lados  */ 
+    background-color: rgb(153, 180, 248);
+    border-radius: 5px;
+    text-align: left;
+    
+   
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Espaciado arriba y abajo */
+  }
+  
+  label {
+    display: block;   /* para */
+    font-weight: bold;    /* Para el peso de fuente y negritas   */
+    
+  }
+  input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #121312;
+  color: #fff;
+  border: none;
+  border-radius: 15px; /* Radio de los bordes  de forma redonda */
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {    /* Estilo cuando el cursor deol maus se situe en el */
+    background-color: #45a049;
+  }
+
+fieldset{
+    text-align: left;
+}
+
+p{
+    text-align: center;
+}
+
+
